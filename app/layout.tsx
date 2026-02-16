@@ -57,6 +57,14 @@ export const metadata: Metadata = {
         description:
             "Easily capture and store restaurant locations with geolocation and image support.",
         siteName: "Restaurant Location Manager",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Restaurant Location Manager Preview",
+            },
+        ],
     },
 
     twitter: {
@@ -64,6 +72,7 @@ export const metadata: Metadata = {
         title: "Restaurant Location Manager",
         description:
             "Capture and manage restaurant locations with precision and simplicity.",
+        images: ["/og-image.png"],
     },
 
     category: "technology",
